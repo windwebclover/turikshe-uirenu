@@ -1,0 +1,10 @@
+[
+  { "title": "Оқылым", "slug": "okylym" },
+  { "title": "Тыңдалым", "slug": "tyndalym" },
+  { "title": "Сөйлеу", "slug": "soyleu" },
+  { "title": "Жазу", "slug": "zhazu" },
+  { "title": "Грамматика", "slug": "grammar" },
+  { "title": "Сөздік", "slug": "vocabulary" },
+  { "title": "Ресурстар / Құралдар", "slug": "resources" },
+  { "title": "Блог", "slug": "blog" }
+]

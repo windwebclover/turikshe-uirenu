@@ -1,0 +1,123 @@
+@use '../../styles/variables' as *;
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid $border-color;
+  backdrop-filter: blur(12px);
+
+  &__inner {
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    gap: 34px;
+  }
+
+  &__logo {
+    color: $purple-700;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  &__navigation {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 22px;
+  }
+
+  &__link {
+    position: relative;
+    padding: 26px 0 23px;
+    color: $text-secondary;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $purple-700;
+    }
+
+    &--active {
+      color: $purple-700;
+    }
+
+    &--active::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 2px;
+      background: $purple-600;
+    }
+  }
+
+  &__menu-button {
+    display: none;
+    margin-left: auto;
+    padding: 8px 0;
+    border: 0;
+    background: transparent;
+    color: $purple-700;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1040px) {
+  .header {
+    &__inner {
+      position: relative;
+      min-height: 64px;
+    }
+
+    &__menu-button {
+      display: block;
+    }
+
+    &__navigation {
+      display: none;
+      position: absolute;
+      top: 64px;
+      left: 16px;
+      right: 16px;
+      margin: 0;
+      padding: 10px;
+      border: 1px solid $border-color;
+      border-radius: 16px;
+      background: $white;
+      box-shadow: $shadow-md;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+
+      &--opened {
+        display: flex;
+      }
+    }
+
+    &__link {
+      padding: 12px 14px;
+      border-radius: 10px;
+
+      &--active {
+        background: $purple-50;
+      }
+
+      &--active::after {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@use '../../styles/variables' as *;
+
+.not-found {
+  padding: 100px 0;
+  text-align: center;
+
+  p {
+    margin: 0;
+    color: $purple-500;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+  }
+
+  h1 {
+    margin: 10px 0 22px;
+    font-size: clamp(38px, 6vw, 64px);
+    letter-spacing: -0.04em;
+  }
+
+  a {
+    color: $purple-700;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,41 @@
+@use '../../styles/variables' as *;
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+}
+
+.footer {
+  margin-top: 72px;
+  border-top: 1px solid $border-color;
+  background: $white;
+
+  &__inner {
+    min-height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    color: $text-secondary;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    margin-top: 48px;
+
+    &__inner {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 6px;
+    }
+  }
+}

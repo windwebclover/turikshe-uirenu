@@ -1,0 +1,133 @@
+@use '../../styles/variables' as *;
+
+.home {
+  padding: 64px 0 0;
+
+  &__hero {
+    max-width: 860px;
+    padding: 54px 0 64px;
+  }
+
+  &__eyebrow {
+    margin: 0 0 14px;
+    color: $purple-600;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  h1 {
+    margin: 0;
+    color: $text-primary;
+    font-size: clamp(42px, 7vw, 76px);
+    line-height: 0.98;
+    letter-spacing: -0.055em;
+  }
+
+  &__lead {
+    max-width: 660px;
+    margin: 24px 0 0;
+    color: $text-secondary;
+    font-size: 20px;
+    line-height: 1.65;
+  }
+
+  &__sections,
+  &__latest {
+    margin-top: 50px;
+  }
+
+  &__section-title {
+    margin-bottom: 20px;
+
+    h2 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: -0.03em;
+    }
+
+    &--split {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+
+      a {
+        color: $purple-700;
+        font-weight: 700;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__section-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  &__section-link {
+    min-height: 94px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid $border-color;
+    border-radius: $radius-md;
+    background: $white;
+    color: $text-primary;
+    font-size: 18px;
+    font-weight: 750;
+    text-decoration: none;
+    transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      border-color: $purple-300;
+      background: $purple-50;
+      color: $purple-800;
+    }
+  }
+
+  &__articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+}
+
+@media (max-width: 980px) {
+  .home {
+    padding-top: 30px;
+
+    &__section-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__articles {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .home {
+    &__hero {
+      padding: 28px 0 38px;
+    }
+
+    &__lead {
+      font-size: 18px;
+    }
+
+    &__section-grid,
+    &__articles {
+      grid-template-columns: 1fr;
+    }
+
+    &__section-title--split {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+}
