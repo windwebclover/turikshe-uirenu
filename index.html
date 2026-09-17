@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#6d3bbd" />
     <meta name="description" content="Түрік тілін үйренуге арналған материалдар" />
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const redirect = params.get('redirect');
+
+      if (redirect) {
+        window.history.replaceState(
+          null,
+          '',
+          '/turikshe-uirenu' + redirect
+        );
+      }
+    </script>
     <title>Türkçe</title>
   </head>
   <body>
