@@ -2,6 +2,8 @@ import OkylymHowToRead from './content/OkylymHowToRead';
 import ExtremeTurkishLearning from './content/ExtremeTurkishLearning';
 import TurkishAlterEgo from './content/TurkishAlterEgo';
 import UnusualTurkishLearningMethods from './content/UnusualTurkishLearningMethods';
+import ArabicSharedWords from './content/ArabicSharedWords';
+import TurkishOnly24Hours from './content/TurkishOnly24Hours';
 
 const articles = [
   {
@@ -34,7 +36,7 @@ const articles = [
     content: <TurkishAlterEgo />,
   },
   {
-    id: 11,
+    id: 4,
     slug: 'unusual-turkish-learning-methods',
     section: 'blog',
     title: 'Түрік тілін үйренудің ерекше тәсілдері',
@@ -42,6 +44,26 @@ const articles = [
     level: 'Барлық деңгей',
     date: '2026-09-17',
     content: <UnusualTurkishLearningMethods />,
+  },
+  {
+    id: 5,
+    slug: 'arabic-words-turkish-kazakh',
+    section: 'vocabulary',
+    title: 'Араб және түркі түбірлі түрікше-қазақша ұқсас сөздер',
+    description: 'Түрік және қазақ тілдеріндегі дыбысталуы мен мағынасы ұқсас сөздер.',
+    level: 'Барлық деңгей',
+    date: '2026-09-18',
+    content: <ArabicSharedWords />,
+  },
+  {
+    id: 6,
+    slug: '24-hours-only-turkish',
+    section: 'soyleu',
+    title: '24 сағат тек түрікше сөйлеп көріңіз!',
+    description: '24 сағат бойы тек түрікше сөйлеп, миыңызды түрікше ойлауға үйрететін шағын челлендж.',
+    level: 'Барлық деңгей',
+    date: '2026-09-18',
+    content: <TurkishOnly24Hours />,
   }
 ];
 
