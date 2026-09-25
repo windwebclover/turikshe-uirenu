@@ -1,24 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://windwebclover.github.io/turikshe-uirenu/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
-
   <url>
-    <loc>https://windwebclover.github.io/turikshe-uirenu/blog</loc>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/okylym/</loc>
+    <lastmod>2026-09-17</lastmod>
   </url>
-
   <url>
-    <loc>https://windwebclover.github.io/turikshe-uirenu/okylym</loc>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/tyndalym/</loc>
   </url>
-
   <url>
-    <loc>https://windwebclover.github.io/turikshe-uirenu/article/turkish-alter-ego</loc>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/soyleu/</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
-
   <url>
-    <loc>https://windwebclover.github.io/turikshe-uirenu/article/unusual-turkish-learning-methods</loc>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/zhazu/</loc>
   </url>
-
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/grammar/</loc>
+  </url>
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/vocabulary/</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/resources/</loc>
+  </url>
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/blog/</loc>
+    <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/article/okylym-how-to-read-turkish/</loc>
+    <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/article/extreme-way-to-learn-turkish-fast/</loc>
+    <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/article/turkish-alter-ego/</loc>
+    <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/article/unusual-turkish-learning-methods/</loc>
+    <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/article/arabic-words-turkish-kazakh/</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://windwebclover.github.io/turikshe-uirenu/article/24-hours-only-turkish/</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
 </urlset>
