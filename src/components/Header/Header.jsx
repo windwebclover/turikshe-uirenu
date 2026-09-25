@@ -12,7 +12,7 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <Link className="header__logo" to="/" onClick={closeMenu}>
-          Türkçe
+          Түрік тілін үйрену
         </Link>
 
         <button
